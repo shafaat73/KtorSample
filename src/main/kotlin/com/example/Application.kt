@@ -22,6 +22,7 @@ fun Application.module() {
     val config = HoconApplicationConfig(ConfigFactory.load())
     val tokenManager = TokenManager(config)
 
+
     install(Authentication) {
         jwt {
             verifier(tokenManager.verifyJWTToken())
