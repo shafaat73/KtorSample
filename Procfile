@@ -1,1 +1,1 @@
-web: build\install\KtorSample\bin\KtorSample
+web: ./build\install\KtorSample\bin\KtorSample
