@@ -1,1 +1,1 @@
-web: ./build/install/RESTAPI-CRUD/bin/RESTAPI-CRUD
+web: build\install\RESTAPI-CRUD\bin\RESTAPI-CRUD
