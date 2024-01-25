@@ -4,9 +4,9 @@ import org.ktorm.database.Database
 
 object DatabaseConnection {
     val database = Database.connect(
-        url = "jdbc:mysql://l0ebsc9jituxzmts.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/x6rlku7zqgt0s123",
+        url = "jdbc:mysql://au77784bkjx6ipju.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/wync6zbooqh3z3oa",
         driver = "com.mysql.cj.jdbc.Driver",
-        user = "xrdx85q4se9m1r8y",
-        password = "o4dcu2pafe3wvysl"
+        user = "lfyjesz1kptippj3",
+        password = "oogeli10zmvdvsqr"
     )
 }
