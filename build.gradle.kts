@@ -12,11 +12,17 @@ plugins {
 group = "com.example"
 version = "0.0.1"
 
+tasks.withType<JavaCompile> {
+    sourceCompatibility = JavaVersion.VERSION_11.name
+    targetCompatibility = JavaVersion.VERSION_11.name
+}
+
 application {
     mainClass.set("com.example.ApplicationKt")
 
     val isDevelopment: Boolean = project.ext.has("development")
     applicationDefaultJvmArgs = listOf("-Dio.ktor.development=$isDevelopment")
+
 }
 
 repositories {
